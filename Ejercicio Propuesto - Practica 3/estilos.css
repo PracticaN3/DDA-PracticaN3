@@ -1,0 +1,39 @@
+#menuhorizontal {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#contenedor {
+    width: 100%;
+    border: 1px solid #000;
+    line-height: 130%;
+    background-color: #f2f2f2;
+}
+
+#cabecera {
+    padding: 10px;
+    color: #fff;
+    background-color: #becdfe;
+    clear: left;
+}
+
+
+    #menuhorizontal a {
+        width: 100px;
+        text-decoration: none;
+        text-align: center;
+        color: #ff0000;
+        background-color: #f7f8e8;
+        padding: 3px 5px;
+        border-right: 1px solid blue;
+        display: block;
+    }
+
+    #menuhorizontal li {
+        float: left;
+    }
+
+    #menuhorizontal a:hover {
+        background-color: #336699;
+    }
